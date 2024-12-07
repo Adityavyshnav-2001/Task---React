@@ -1,0 +1,41 @@
+.container {
+	padding: 20px;
+}
+
+.fetchButton {
+	margin-bottom: 20px;
+	padding: 10px 20px;
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+.weatherTable {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.weatherTable th,
+.weatherTable td {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: left;
+}
+
+.weatherTable th {
+	background-color: #c86d6d;
+}
+
+.pinButton {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.pinButton.pinned {
+    background-color: #f44336;
+}
